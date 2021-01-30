@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+	margin: 2;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+	background: #767fab;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.container {
+	width: 1000px;
+	border: 1px;
+	height: 200px;
+	margin: 0 auto;
+	}
+
+.nav {
+	margin-top: 100px;
+}
+
+.nav ul {
+	text-align: center;
+}
+
+.nav ul li {
+	display: inline-block;
+	padding-right: 30px;
+	font-size: 20px;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	color: #30323d;
+}
+
+.login {
+	margin-top: 100px;
+}
+
+.login form {
+	text-align: center;
+}
+
+.login form input {
+	width: 300px;
+	height: 30px;
+	margin-bottom: 10px;
+	text-indent: 5px; /* textul din casetuta mai spre dreapta */
+}
+
+.login form input:hover {
+	background-color: #fff;
+}
+
+

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+	margin: 2;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+body {	
+	background: #767fab;
+}
+
+nav ul {
+	text-align: center;
+
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 5px;
+	color: white;
+	cursor: pointer;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+/* culoare cand cursorul este pe buton */
+nav a:hover {
+	color: #30323d;
+}
+
+section img {
+	position: absolute;
+	top: 120px;
+	left: 200px;
+	width: 500px;
+	height: 450px;
+	object-fit: cover;
+	border-top-left-radius: 90px;
+	border-top-right-radius: 90px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+
+
+#text {
+	right: 500px;
+	top: 100px; 
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	z-index: 1;
+	position: absolute;
+
+}
+
+#text2 {
+	right: 130px;
+	top: 350px; 
+	text-align: right;
+	color: #fff;
+	font-size: 20px;
+	z-index: 1;
+	position: relative;
+}
+
+.fa-envelope-square {
+	font-size: 25px;
+	margin-left: 200px;
+	margin-top: 70px;  
+}
+
+.fa-facebook-square {
+	font-size: 25px;
+	margin-left: 200px;
+	margin-top: 20px; 
+}
+
+.icon-text {
+	font-size: 25px;
+}
+
+
+
+.input {
+	position: relative;
+	top: 80px;
+	left: 120px; 
+	width: 500px;
+	height: 250px;
+	font-size: 20px;
+}
+
+section p {
+	top: 5px;
+	margin-left: 120px;
+	font-size: 20px;
+	margin-top: 120px; 
+}
+
+
+#buton {
+	position: relative;
+	top: 100px;
+	left: 120px;
+	width: 100px;
+	height: 25px; 
+}
+
+form #desprepg {
+	top: 80px;
+	left: 130px; 
+	width: 500px;
+	height: 250px;
+	font-size: 20px;
+	position: absolute;
+}
+
+
+
+
+
+
